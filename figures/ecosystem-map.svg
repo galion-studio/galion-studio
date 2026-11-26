@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" role="img" aria-label="How the Galion ecosystem fits together on one machine">
+  <rect width="1280" height="560" rx="16" fill="#0A0A0C"/>
+  <rect x="0.5" y="0.5" width="1279" height="559" rx="15.5" fill="none" stroke="#2C2C33"/>
+
+  <!-- Header -->
+  <text x="40" y="44" fill="#F5A524" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="12" font-weight="500" letter-spacing="2">ECOSYSTEM MAP</text>
+  <text x="40" y="70" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="15">One calm machine. Private by default. Your data stays with you.</text>
+
+  <!-- Connector hairlines -->
+  <line x1="230" y1="240" x2="230" y2="268" stroke="#2C2C33" stroke-width="1.5"/>
+  <line x1="640" y1="240" x2="640" y2="268" stroke="#2C2C33" stroke-width="1.5"/>
+  <line x1="1050" y1="240" x2="1050" y2="268" stroke="#2C2C33" stroke-width="1.5"/>
+  <line x1="435" y1="372" x2="435" y2="400" stroke="#2C2C33" stroke-width="1.5"/>
+
+  <!-- ROW 1, CARD 1: Galion One -->
+  <rect x="40" y="96" width="380" height="144" rx="12" fill="#141418" stroke="#2C2C33"/>
+  <rect x="60" y="116" width="40" height="40" rx="10" fill="#0A0A0C" stroke="#2C2C33"/>
+  <circle cx="80" cy="136" r="6" fill="#F5F5F7"/>
+  <text x="114" y="133" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="19" font-weight="500">Galion One</text>
+  <text x="114" y="152" fill="#F5A524" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="500">PLUS · PLANNED ($20 / €20)</text>
+  <text x="60" y="188" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="13.5">The companion. Samantha V2 for conversation;</text>
+  <text x="60" y="210" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="13.5">Jarvis for calm, exact commands.</text>
+
+  <!-- ROW 1, CARD 2: Galion Voice -->
+  <rect x="450" y="96" width="380" height="144" rx="12" fill="#141418" stroke="#2C2C33"/>
+  <rect x="470" y="116" width="40" height="40" rx="10" fill="#0A0A0C" stroke="#2C2C33"/>
+  <circle cx="490" cy="136" r="11" fill="none" stroke="#F5F5F7" stroke-width="1.75"/>
+  <circle cx="490" cy="136" r="3.5" fill="#F5F5F7"/>
+  <text x="524" y="133" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="19" font-weight="500">Galion Voice</text>
+  <text x="524" y="152" fill="#A7B6C4" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="400">INSIDE GALION ONE · IN DEVELOPMENT</text>
+  <text x="470" y="188" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="13.5">The voice model inside Galion One. One dot</text>
+  <text x="470" y="210" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="13.5">that rests, listens, and speaks. Live empathy.</text>
+
+  <!-- ROW 1, CARD 3: Galion Research -->
+  <rect x="860" y="96" width="380" height="144" rx="12" fill="#141418" stroke="#2C2C33"/>
+  <rect x="880" y="116" width="40" height="40" rx="10" fill="#0A0A0C" stroke="#2C2C33"/>
+  <polygon points="900,123 913,136 900,149 887,136" fill="none" stroke="#F5F5F7" stroke-width="1.75" stroke-linejoin="round"/>
+  <circle cx="900" cy="136" r="3" fill="#F5F5F7"/>
+  <text x="934" y="133" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="19" font-weight="500">Galion Research</text>
+  <text x="934" y="152" fill="#F5A524" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="500">ULTRA · PLANNED ($220 / €220)</text>
+  <text x="880" y="188" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="13.5">Curious, analytical research desk with Hermes.</text>
+  <text x="880" y="210" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="13.5">Separates Found, Inferred, and Unknown.</text>
+
+  <!-- ROW 2: Obsidian Open Mind (Desktop Layer) -->
+  <rect x="40" y="268" width="1200" height="104" rx="12" fill="#131A22" stroke="#24303C"/>
+  <rect x="60" y="288" width="40" height="40" rx="10" fill="#05070A" stroke="#24303C"/>
+  <polygon points="80,295 91,301.5 91,314.5 80,321 69,314.5 69,301.5" fill="#1B2633" stroke="#4A7C99" stroke-width="1.5"/>
+  <circle cx="80" cy="308" r="5.5" fill="none" stroke="#58C4FF" stroke-width="1.75" stroke-dasharray="26 8"/>
+  <circle cx="80" cy="308" r="2" fill="#58C4FF"/>
+  <text x="114" y="306" fill="#E6EDF3" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="19" font-weight="500">Obsidian Open Mind</text>
+  <text x="114" y="325" fill="#58C4FF" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="500">DESKTOP LAYER · IN DEVELOPMENT</text>
+  <text x="60" y="354" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="14">Memory, tools, and agents working together. The CPU owns the loop and the keys — an ordinary computer is enough.</text>
+
+  <!-- ROW 3, LEFT: Galion Operating System -->
+  <rect x="40" y="400" width="790" height="124" rx="12" fill="#141418" stroke="#2C2C33"/>
+  <rect x="60" y="420" width="40" height="40" rx="10" fill="#0A0A0C" stroke="#2C2C33"/>
+  <rect x="70" y="430" width="20" height="20" rx="5" fill="none" stroke="#F5F5F7" stroke-width="1.75"/>
+  <circle cx="80" cy="440" r="3.5" fill="#F5F5F7"/>
+  <text x="114" y="437" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="19" font-weight="500">Galion Operating System</text>
+  <text x="114" y="456" fill="#F5A524" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="500">FREE FOREVER · OPEN SOURCE · IN DEVELOPMENT</text>
+  <text x="60" y="492" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="14">Built on Linux and Rust for any laptop, desktop, or Raspberry Pi 5. Roadmap profiles: Galion OS Voice and Hermes GUI.</text>
+
+  <!-- ROW 3, RIGHT: Galion Labs -->
+  <rect x="860" y="400" width="380" height="124" rx="12" fill="#141418" stroke="#2C2C33"/>
+  <rect x="880" y="420" width="40" height="40" rx="10" fill="#0A0A0C" stroke="#2C2C33"/>
+  <path d="M889 431 H911 V449 H893 V435 H907 V445 H898" fill="none" stroke="#F5F5F7" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="900" cy="440" r="2.5" fill="#F5F5F7"/>
+  <text x="934" y="437" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="19" font-weight="500">Galion Labs</text>
+  <text x="934" y="456" fill="#F5A524" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="500">OPEN COMMUNITY · FREE TO JOIN</text>
+  <text x="880" y="492" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, sans-serif" font-size="13.5">Open research, Forge, Corpus Nova, and public notes.</text>
+</svg>
