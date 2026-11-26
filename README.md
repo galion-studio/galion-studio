@@ -1,72 +1,44 @@
-# GalionLabs
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="Galion — The seamless connection with the human being, on the voice only.">
+  <defs>
+    <radialGradient id="wash-amber" cx="18%" cy="88%" r="55%">
+      <stop offset="0%" stop-color="#F5A524" stop-opacity="0.11"/>
+      <stop offset="100%" stop-color="#0A0A0C" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="wash-violet" cx="84%" cy="16%" r="58%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#0A0A0C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
 
-**G.A.L.I.O.N.** — General Autonomous Local Intelligence Open Network.
+  <!-- Obsidian ground and subtle background-only wash -->
+  <rect width="1280" height="360" rx="16" fill="#0A0A0C"/>
+  <rect width="1280" height="360" rx="16" fill="url(#wash-amber)"/>
+  <rect width="1280" height="360" rx="16" fill="url(#wash-violet)"/>
+  <rect x="0.5" y="0.5" width="1279" height="359" rx="15.5" fill="none" stroke="#2C2C33"/>
 
-Your own AI, on hardware you own. Rust-first, CPU-light, loopback by default (`127.0.0.1`), under the Perpetual Open MIT License.
+  <!-- The dot: flat #F5F5F7, no tint, no glow, generous clear space -->
+  <circle cx="132" cy="180" r="34" fill="#F5F5F7"/>
 
-[galion.app](https://galion.app) · [developer.galion.app](https://developer.galion.app) · [Public notes](https://github.com/galion-studio/community) · [Discussions](https://github.com/galion-studio/community/discussions)
+  <!-- Editorial copy -->
+  <text x="212" y="114" fill="#F5A524" font-family="'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" font-weight="500" letter-spacing="2.2">BY GALION STUDIO · PERPETUAL OPEN MIT</text>
+  <text x="210" y="172" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, -apple-system, sans-serif" font-size="56" font-weight="500" letter-spacing="-0.5">Galion</text>
+  <text x="212" y="216" fill="#F5F5F7" font-family="'IBM Plex Sans', system-ui, -apple-system, sans-serif" font-size="19" font-weight="400">“The seamless connection with the human being, on the voice only.”</text>
+  <text x="212" y="250" fill="#A7B6C4" font-family="'IBM Plex Sans', system-ui, -apple-system, sans-serif" font-size="15" font-weight="400">Free, calm software on hardware you own. Linux, Rust, and one quiet surface.</text>
 
----
+  <!-- Right editorial card: three ways in -->
+  <rect x="924" y="76" width="308" height="208" rx="12" fill="#141418" stroke="#2C2C33"/>
 
-## Core Stack
+  <circle cx="952" cy="116" r="5" fill="#F5F5F7"/>
+  <text x="968" y="121" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="15" font-weight="500">Galion OS</text>
+  <text x="1208" y="120" text-anchor="end" fill="#F5A524" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="500">FREE FOREVER</text>
+  <line x1="944" y1="144" x2="1212" y2="144" stroke="#2C2C33"/>
 
-Every repository states what runs today, what is staged, and what is planned. Unrun gates stay open. No model invents citations or engineering numbers.
+  <circle cx="952" cy="179" r="5" fill="#F5F5F7"/>
+  <text x="968" y="184" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="15" font-weight="500">Galion One</text>
+  <text x="1208" y="183" text-anchor="end" fill="#A7B6C4" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="400">PLUS · PLANNED</text>
+  <line x1="944" y1="208" x2="1212" y2="208" stroke="#2C2C33"/>
 
-| Repository | Role | Stack | State |
-| :--- | :--- | :--- | :--- |
-| **[obsidian-open-mind](https://github.com/galion-studio/obsidian-open-mind)** | Local agent runtime, Landlock sandbox, and loopback console (`127.0.0.1:18181`) for ordinary CPUs. | Rust (75 crates) | CI passing; stack rows staged |
-| **[galion-one-voice](https://github.com/galion-studio/galion-one-voice)** | One-orb real-time voice engine: 80 ms clock, consent-gated emotion band, out-of-process ASR/TTS. | Rust · Piper · Vosk | V2 active on loopback |
-| **[hermes-research](https://github.com/galion-studio/hermes-research)** | Citation-gated research desk separating `Found`, `Inferred`, and `Unknown`. Offline-honest. | Node 22 (0 deps) | E2E + a11y passing |
-| **[galion-knowledge](https://github.com/galion-studio/galion-knowledge)** | Base World Knowledge Pack and `truth-gate` source/evidence validator for HORBM retrieval. | Rust · Eleventy · Three.js | V2 static build + truth-gate |
-| **[galion-operating-system](https://github.com/galion-studio/galion-operating-system)** | Linux + Rust OS profiles (voice-only `/dev/fb0` first, single-window GUI second) for PC and Pi 5. | Rust · Linux · Shell | `galion-init` prototype |
-
-## Applied Science & Engineering
-
-| Repository | Role | Rule |
-| :--- | :--- | :--- |
-| **[cargen](https://github.com/galion-studio/cargen)** *(Forge)* | Prompt-to-car engineering pipeline (OpenCourant explicit crash FEA, MFEM, Open CASCADE, Bevy). | Every engineering number comes from a validated solver or cited test (48 tube-crush tests indexed), never from the AI. |
-| **[Corpus-Nova](https://github.com/galion-studio/Corpus-Nova)** | Interactive 3D human organism explorer and Nova Sheet biology/endocrinology white papers. | Primary literature cited; contested mechanisms kept side by side. |
-
----
-
-## Latest Working Paper · GP-2026-01
-
-**Testing Grok Build on a rented CPU.** 23 September 2026. One operator. No second rater. Not a benchmark.
-
-[Read it](https://developer.galion.app/p/grok-build-paper) · [PDF](https://github.com/galion-studio/community/blob/main/2026-09-23/grok-build/galion-gp-2026-01.pdf) · [The day](https://github.com/galion-studio/community/tree/main/2026-09-23)
-
-**Grade.** Useful. Not finished. Not something to leave alone for a week. Not a Grok-class computer.
-
-| Behavior | Early | Late |
-| --- | ---: | ---: |
-| Follows the last instruction | 5 | 5 |
-| Builds on the paid machine | 2 | 4 |
-| Leaves the keeper processes alone | 1 | 4 |
-| Speaks before a hidden think | 2 | 3 |
-| Keeps secrets out of the transcript | 2 | 2 |
-| Leaves a result you can open | 2 | 4 |
-
-<details>
-<summary><strong>Figures & operator notes from GP-2026-01</strong></summary>
-
-<br>
-
-![Figure 4. Early and late scores.](figures/fig4-scores.png)
-
-![Figure 1. The light stack. One host is the desk. The other names stay quiet.](figures/fig1-stack.png)
-
-![Figure 2. The side computer and the volume. Only the volume is visible to the phone.](figures/fig2-disks.png)
-
-![Figure 3. The sitting, in order.](figures/fig3-path.png)
-
-### Also filed
-- [The layer that wraps everything](https://developer.galion.app/p/ald-gaa) — Research plan on rare-earth oxides (plan, not a replacement claim).
-- [The ALD plan is live](https://developer.galion.app/p/ald-gaa-live) — Follow-up note.
-
-</details>
-
----
-
-## License
-
-Perpetual Open MIT License · © 2024–2026 GalionLabs. Free forever; commercial use allowed; keep the copyright and permission notice with every copy.
+  <circle cx="952" cy="243" r="5" fill="#F5F5F7"/>
+  <text x="968" y="248" fill="#F5F5F7" font-family="'Jost', 'IBM Plex Sans', system-ui, sans-serif" font-size="15" font-weight="500">Galion Research</text>
+  <text x="1208" y="247" text-anchor="end" fill="#A7B6C4" font-family="'IBM Plex Mono', ui-monospace, monospace" font-size="11" font-weight="400">ULTRA · PLANNED</text>
+</svg>
