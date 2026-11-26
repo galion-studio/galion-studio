@@ -1,4 +1,4 @@
-# Galion Labs
+# GalionLabs
 
 **G.A.L.I.O.N.** — General Autonomous Local Intelligence Open Network.
 
@@ -69,4 +69,4 @@ Every repository states what runs today, what is staged, and what is planned. Un
 
 ## License
 
-Perpetual Open MIT License · © 2024–2026 Galion Labs. Free forever; commercial use allowed; keep the copyright and permission notice with every copy.
+Perpetual Open MIT License · © 2024–2026 GalionLabs. Free forever; commercial use allowed; keep the copyright and permission notice with every copy.
